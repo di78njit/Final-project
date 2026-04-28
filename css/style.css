@@ -1,0 +1,45 @@
+/* DEVELOPER: Dilawaiz Irshad,  IS117-XXX, Spring 2026 */
+
+body {
+  font-size: 1em;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar spacing */
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Card spacing */
+.card {
+  margin-bottom: 20px;
+}
+
+/* Images responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+}
+
+/* Mobile (VERY IMPORTANT for grade) */
+@media (max-width: 768px) {
+  body {
+    background-color: #f8f9fa;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  p {
+    font-size: 0.9em;
+  }
+}
